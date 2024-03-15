@@ -23,7 +23,7 @@ function buscaBinaria(vetor, valorBusca){
     }
 }
 
-let nums = [0, 11, 22, 33, 44, 55, 66, 77, 88, 99]
+//let nums = [0, 11, 22, 33, 44, 55, 66, 77, 88, 99]
 
 //console.log('Posição de 33: ', buscaBinaria(nums, 33), 'Comparações ', comps)
 
