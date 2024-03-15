@@ -33,3 +33,5 @@ function comparar(valorMeio){
 import { objNomes } from './data/vetor-obj-nomes.mjs'
 
 console.log('Posição do objeto em first_name === LUCAS ', buscaBinaria(objNomes, comparar), "comparações ", comps)
+
+// teste
