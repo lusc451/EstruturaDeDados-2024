@@ -10,8 +10,8 @@ function bubbleSort(vetor){
 
         for(let i = 0; i < vetor.length -1; i++){
             comps++
-            if(vetor[i] > vetor[i + 1]){
-                [vetor[i], vetor[i + 1]] = [vetor[i + 1], vetor[i]]
+            if(vetor[i] > vetor[i + 1]){ //"Se o index do vetor for maior que o index subsequente"
+                [vetor[i], vetor[i + 1]] = [vetor[i + 1], vetor[i]] //Troca os valores dos index
                 trocou = true
                 trocas++
             }
@@ -21,7 +21,11 @@ function bubbleSort(vetor){
 
 }
 
-let nums = [77, 44, 22, 33, 99, 55, 88, 0, 66, 11]
-bubbleSort(nums)
-console.log(nums)
+// let nums = [77, 44, 22, 33, 99, 55, 88, 0, 66, 11]
+// bubbleSort(nums)
+// console.log(nums)
+
+import { nomes } from "./data/nomes-desord.mjs"
+bubbleSort(nomes)
+console.log(nomes)
 console.log(pass, comps, trocas)
