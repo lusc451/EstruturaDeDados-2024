@@ -7,3 +7,15 @@ o console.log(), todos os números pares de 0 até N em ordem decrescente.
 
 */
 
+
+
+//Exercicio 1
+function soma(n){
+    if(n == 1){
+        return 1;
+    }else{
+        return n + soma(n -1);
+    }
+}
+
+console.log("A somatória dos numeros de 1 a 5 é: ", soma(5));
