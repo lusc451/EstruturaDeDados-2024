@@ -17,8 +17,11 @@
 // console.log("O fatorial de 0 é: ", calcularFatorial(0));
 
 function fatorialRecursivo(n){
-
-    n * fatorialRecursivo(n - 1);
+    if(n <= 1){
+        return 1;
+    } else{
+        n * fatorialRecursivo(n - 1);
+    }
 
 }
 
