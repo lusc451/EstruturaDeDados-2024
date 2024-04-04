@@ -8,6 +8,7 @@ function calcularFatorial(n) {
     return res;
 }
 
+console.log("O fatorial de 6 é: ", calcularFatorial(6));
 console.log("O fatorial de 5 é: ", calcularFatorial(5));
 console.log("O fatorial de 4 é: ", calcularFatorial(4));
 console.log("O fatorial de 3 é: ", calcularFatorial(3));
