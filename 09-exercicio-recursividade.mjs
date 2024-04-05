@@ -19,3 +19,23 @@ function soma(n){
 }
 
 console.log("A somatória dos numeros de 1 a 5 é: ", soma(5));
+
+//Exercicio 2
+let par = [];
+function numPar(n){
+    
+    if(n == 0){
+        par.push(n);
+        return par;
+
+    }else if(n % 2 == 0){
+        par.push(n);
+        return n = numPar(n - 1);
+
+    }else{
+        return n = numPar(n - 1);
+    }
+    
+}
+// console.log(numPar(8));
+console.log("Os números pares em ordem decrescente de 6 até 0 são: ", numPar(6));
